@@ -1,0 +1,16 @@
+form[name="searchMovieForm"] {
+  margin: 20px auto;
+}
+
+input[type="text"] {
+  border: 1px solid transparent;
+  width: 90%;
+  padding: 10px;
+  font-size: 1.3em;
+  background: #FAFAFA;
+  border: 1px solid #E8E8E8;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}

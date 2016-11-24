@@ -1,0 +1,54 @@
+.movieDetail {
+  background: #FAFAFA;
+  border: 1px solid #E8E8E8;
+  margin: 20px auto;
+  padding: 10px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.movieDetail figure {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.movieDetail figure img,
+.movieDetail figure div {
+  margin-right: 30px;
+}
+
+.movieDetail main {
+  text-align: left;
+}
+
+.description h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.description ul li {
+  padding: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+  .movieDetail figure {
+    float: none;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .movieDetail figure img {
+    margin: 0;
+  }
+
+  .description ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .description ul li {
+    list-style-type: none;
+  }
+}
